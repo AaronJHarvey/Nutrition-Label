@@ -49,3 +49,7 @@ p {
 	background-color: black;
 	border: 0;
 }
+
+.sm-text {
+	font-size: .85rem;
+}
