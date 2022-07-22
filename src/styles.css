@@ -20,7 +20,7 @@ body {
 header h1 {
 	text-align: center;
 	margin: -4px 0;
-	letter-spacing: .15px;
+	letter-spacing: 0.15px;
 }
 
 p {
@@ -51,8 +51,12 @@ p {
 	border: 0;
 }
 
+.md {
+	height: 5px;
+}
+
 .sm-text {
-	font-size: .85rem;
+	font-size: 0.85rem;
 }
 
 .calories-info h1 {
@@ -65,20 +69,16 @@ p {
 	margin-top: -7px;
 }
 
-.md {
-	height: 5px;
-}
-
 .indent {
 	margin-left: 1em;
 }
 
-.daily-value p:not(.no-divider) {
-	border-bottom: 1px solid #888989;
-}
-
 .dbl-indent {
 	margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
+	border-bottom: 1px solid #888989;
 }
 
 .note {
